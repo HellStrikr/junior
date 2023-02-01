@@ -3,7 +3,7 @@ import supabase from "../supabase";
 export default function KontaktPage() {
   const [computing, setComputing] = createSignal(false);
   return (
-    <div class="max-w-[400px] mx-auto py-10">
+    <div class="max-w-[350px] md:max-w-[400px] mx-auto py-10">
       <div class="bg-gray-700 py-8 px-6 rounded-2xl shadow-2xl">
         <form
           class="grid grid-cols-1 gap-6"
