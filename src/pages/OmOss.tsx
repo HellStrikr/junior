@@ -1,7 +1,7 @@
 export default function OmossPage() {
   return (
     <div class="bg-gray-400">
-      <div class="mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
+      <div class="mx-auto flex flex-col md:flex-row items-center py-12 md:py-24">
         <div class="grid grid-cols-1 grid-rows-2 lg:(grid-cols-2 grid-rows-1)">
           <div class="flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-24 px-6">
             <h1 class="font-bold text-3xl my-4">Kulleseid Kran</h1>
