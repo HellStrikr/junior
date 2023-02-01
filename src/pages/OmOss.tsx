@@ -17,7 +17,7 @@ export default function OmossPage() {
           </div>
 
           <img
-            class="max-h-[600px] max-w-[300px] mx-auto lg:(justify-self-end mr-6 max-w-none)"
+            class="rounded max-h-[600px] max-w-[300px] mx-auto lg:(justify-self-end mr-6 max-w-none)"
             src="images/received_668729274159083.jpeg"
             alt=""
           />
