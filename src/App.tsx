@@ -1,6 +1,7 @@
 import type { Component } from "solid-js";
 import { Router, Routes, Route } from "@solidjs/router";
 import Navbar from "./navbar";
+import Footer from "./footer";
 
 import HomePage from "./pages/Home";
 import OmossPage from "./pages/OmOss";
@@ -16,6 +17,7 @@ const App: Component = () => {
           <Route path="/omoss" component={OmossPage} />
           <Route path="/kontakt" component={KontaktPage} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
