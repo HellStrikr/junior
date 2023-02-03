@@ -2,24 +2,25 @@ import { tw } from "twind";
 
 export default function Navbar() {
   return (
-    <nav class="bg-gray-800 p-2 mt-0 w-full">
+    <nav class="p-2 mt-0 w-full">
       <div class="container mx-auto flex flex-wrap items-center">
         <div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
           <a
             class="text-white no-underline hover:text-white hover:no-underline"
             href="/"
           >
-            <span class="text-2xl pl-2">
+            <span class=" pl-2">
               <i class=""></i>
-              Kulleseid Kran
+              <img class="max-h-[40px]" src="/images/Russemaleri.webp" alt="" />
             </span>
           </a>
         </div>
         <div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
           <ul class=" flex justify-between flex-1 md:flex-none items-center">
             <NavLink url="/">Hjem</NavLink>
-            <NavLink url="/omoss">Om Oss</NavLink>
-            <NavLink url="/kontakt">kontakt</NavLink>
+            <NavLink url="/omoss">Info</NavLink>
+            <NavLink url="/bestill">Bestill</NavLink>
+            <NavLink url="/kontakt">Kontakt</NavLink>
           </ul>
         </div>
       </div>

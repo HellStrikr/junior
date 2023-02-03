@@ -2,13 +2,11 @@ export default function HomePage() {
   return (
     <>
       <div
-        style={
-          " background-image: url('/images/718e3f_9effd9edf1d048a78196d9c32d0b2a37_mv2.jpg'); background-position:center; background-size:cover;"
-        }
         class="min-h-screen"
-      >
-        <h1 class="text-6xl font-bold py-40 px-10 text-gray-800">Grabbebil</h1>
-      </div>
+        style={
+          "background: radial-gradient( circle, rgba(49, 40, 51, 1) 0%, rgba(39, 31, 40, 1) 31%, rgba(28, 22, 29, 1) 61%, rgba(21, 18, 22, 1) 100% );"
+        }
+      ></div>
     </>
   );
 }

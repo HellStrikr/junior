@@ -1,4 +1,4 @@
-export default function Kontakt() {
+export default function Bestill() {
   return (
     <>
       <div

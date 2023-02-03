@@ -6,16 +6,23 @@ import Footer from "./footer";
 import HomePage from "./pages/Home";
 import OmossPage from "./pages/OmOss";
 import KontaktPage from "./pages/Kontakt";
+import Bestill from "./pages/Bestill";
 
 const App: Component = () => {
   return (
     <Router>
-      <div class="bg-gray-800 font-sans leading-normal tracking-normal min-h-screen">
+      <div
+        style={
+          "background: radial-gradient( circle, rgba(49, 40, 51, 1) 0%, rgba(39, 31, 40, 1) 31%, rgba(28, 22, 29, 1) 61%, rgba(21, 18, 22, 1) 100% );"
+        }
+        class="font-sans leading-normal tracking-normal min-h-screen"
+      >
         <Navbar />
         <div class="bg-gray-400">
           <Routes>
             <Route path="/" component={HomePage} />
             <Route path="/omoss" component={OmossPage} />
+            <Route path="/bestill" component={Bestill} />
             <Route path="/kontakt" component={KontaktPage} />
           </Routes>
         </div>
