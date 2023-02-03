@@ -15,7 +15,7 @@ export default function Bestill() {
                   class="space-y-4"
                   target="_blank"
                   action="https://formsubmit.co/admin@russemaleriet.no"
-                  method="post"
+                  method="POST"
                   data-form-type="contact"
                 >
                   <input
