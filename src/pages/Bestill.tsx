@@ -45,6 +45,7 @@ export default function Bestill() {
                       placeholder="Fullt Navn"
                       type="text"
                       id="name"
+                      data-form-type="name"
                     />
                   </div>
 
@@ -59,6 +60,7 @@ export default function Bestill() {
                         placeholder="Email"
                         type="email"
                         id="email"
+                        data-form-type="email"
                       />
                     </div>
 
@@ -72,33 +74,36 @@ export default function Bestill() {
                         placeholder="Telefon Nummer"
                         type="tel"
                         id="phone"
+                        data-form-type="telefon"
                       />
                     </div>
                   </div>
                   <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
                     <div>
-                      <label class="sr-only" for="email">
+                      <label class="sr-only" for="adresse">
                         Adresse
                       </label>
                       <input
                         style={"background-color:rgb(77, 75, 75);"}
                         class="w-full rounded-lg border-white border-1 p-3 text-sm"
                         placeholder="Adresse"
-                        type="email"
-                        id="email"
+                        type="text"
+                        id="adresse"
+                        data-form-type="adresse"
                       />
                     </div>
 
                     <div>
-                      <label class="sr-only" for="phone">
+                      <label class="sr-only" for="post">
                         Postnummer
                       </label>
                       <input
                         style={"background-color:rgb(77, 75, 75);"}
                         class="w-full rounded-lg border-white border-1 p-3 text-sm"
                         placeholder="Postnummer"
-                        type="tel"
-                        id="phone"
+                        type="text"
+                        id="post"
+                        data-form-type="postnummer"
                       />
                     </div>
                   </div>
@@ -113,12 +118,14 @@ export default function Bestill() {
                       placeholder="Message"
                       rows="8"
                       id="message"
+                      data-form-type="logo"
                     ></textarea>
                   </div>
 
                   <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
                     <select
-                      id="countries"
+                      id="logo pakke"
+                      required
                       class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     >
                       <option selected>Velg en logo pakke</option>
