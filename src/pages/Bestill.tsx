@@ -50,7 +50,6 @@ export default function Bestill() {
                       required
                     />
                   </div>
-
                   <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
                     <div>
                       <label class="sr-only" for="email">
@@ -81,6 +80,7 @@ export default function Bestill() {
                         data-form-type="telefon"
                         name="telefon"
                         required
+                        pattern="[0-9]{8}"
                       />
                     </div>
                   </div>
@@ -109,15 +109,16 @@ export default function Bestill() {
                         style={"background-color:rgb(77, 75, 75);"}
                         class="w-full rounded-lg border-white border-1 p-3 text-sm"
                         placeholder="Postnummer"
-                        type="text"
+                        type="number"
                         id="post"
                         data-form-type="postnummer"
                         name="postnummer"
                         required
+                        min="0"
+                        max="9999"
                       />
                     </div>
                   </div>
-
                   <div>
                     <label class="sr-only" for="message">
                       Message
@@ -133,7 +134,6 @@ export default function Bestill() {
                       required
                     ></textarea>
                   </div>
-
                   <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
                     <select
                       id="logo pakke"
@@ -171,7 +171,6 @@ export default function Bestill() {
                     </button>
                   </div>
                   <input
-                    name="betingelser"
                     required
                     id="default-checkbox"
                     type="checkbox"
@@ -184,6 +183,10 @@ export default function Bestill() {
                   >
                     Jeg har lest og akseptert betingelser
                   </label>
+                  <br />
+                  <a class="text-white hover:text-blue-200" href="">
+                    Betingelser
+                  </a>
                 </form>
               </div>
             </div>
