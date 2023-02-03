@@ -7,7 +7,7 @@ export default function Navbar() {
         <div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
           <a
             class="text-white no-underline hover:text-white hover:no-underline"
-            href="#"
+            href="/"
           >
             <span class="text-2xl pl-2">
               <i class=""></i>
