@@ -46,6 +46,8 @@ export default function Bestill() {
                       type="text"
                       id="name"
                       data-form-type="name"
+                      name="navn"
+                      required
                     />
                   </div>
 
@@ -61,6 +63,8 @@ export default function Bestill() {
                         type="email"
                         id="email"
                         data-form-type="email"
+                        name="email"
+                        required
                       />
                     </div>
 
@@ -75,6 +79,8 @@ export default function Bestill() {
                         type="tel"
                         id="phone"
                         data-form-type="telefon"
+                        name="telefon"
+                        required
                       />
                     </div>
                   </div>
@@ -90,6 +96,8 @@ export default function Bestill() {
                         type="text"
                         id="adresse"
                         data-form-type="adresse"
+                        name="adresse"
+                        required
                       />
                     </div>
 
@@ -104,6 +112,8 @@ export default function Bestill() {
                         type="text"
                         id="post"
                         data-form-type="postnummer"
+                        name="postnummer"
+                        required
                       />
                     </div>
                   </div>
@@ -119,12 +129,15 @@ export default function Bestill() {
                       rows="8"
                       id="message"
                       data-form-type="logo"
+                      name="logo beskrivelse"
+                      required
                     ></textarea>
                   </div>
 
                   <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
                     <select
                       id="logo pakke"
+                      name="logo pakke"
                       required
                       class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     >
