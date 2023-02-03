@@ -141,7 +141,9 @@ export default function Bestill() {
                       required
                       class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     >
-                      <option selected>Velg en logo pakke</option>
+                      <option selected value="">
+                        Velg en logo pakke
+                      </option>
                       <option value="Standard">Standard (999kr)</option>
                       <option value="Premium">Premium (1699kr)</option>
                       <option value="Premium+">Premium +(2599kr)</option>
@@ -169,6 +171,8 @@ export default function Bestill() {
                     </button>
                   </div>
                   <input
+                    name="betingelser"
+                    required
                     id="default-checkbox"
                     type="checkbox"
                     value=""
