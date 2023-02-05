@@ -21,7 +21,14 @@ export default function Navbar() {
             <NavLink url="/omoss">Info</NavLink>
             <NavLink url="/bestill">Bestill</NavLink>
             <NavLink url="/kontakt">Kontakt</NavLink>
+            <NavLink url="/odd">Odd</NavLink>
           </ul>
+
+          <img
+            class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+            src="/images/wp9224379.png"
+            alt="Bordered avatar"
+          />
         </div>
       </div>
     </nav>

@@ -7,6 +7,7 @@ import HomePage from "./pages/Home";
 import OmossPage from "./pages/OmOss";
 import KontaktPage from "./pages/Kontakt";
 import Bestill from "./pages/Bestill";
+import Odd from "./pages/odd";
 
 const App: Component = () => {
   return (
@@ -24,6 +25,7 @@ const App: Component = () => {
             <Route path="/omoss" component={OmossPage} />
             <Route path="/bestill" component={Bestill} />
             <Route path="/kontakt" component={KontaktPage} />
+            <Route path="/odd" component={Odd} />
           </Routes>
         </div>
         <Footer />

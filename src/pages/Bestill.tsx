@@ -13,10 +13,6 @@ export default function Bestill() {
               <div class="rounded-lg p-8 bg-gray-800 shadow-lg lg:col-span-3 lg:p-12">
                 <form
                   class="space-y-4"
-                  target="_blank"
-                  action="https://formsubmit.co/admin@russemaleriet.no"
-                  method="POST"
-                  data-form-type="contact"
                 >
                   <input
                     type="hidden"
