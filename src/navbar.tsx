@@ -11,7 +11,7 @@ export default function Navbar() {
           >
             <span class=" pl-2">
               <i class=""></i>
-              <img class="max-h-[40px]" src="/images/Russemaleri.webp" alt="" />
+              <img class="max-h-[40px]" src="" alt="" />
             </span>
           </a>
         </div>
@@ -19,7 +19,6 @@ export default function Navbar() {
           <ul class=" flex justify-between flex-1 md:flex-none items-center">
             <NavLink url="/">Hjem</NavLink>
             <NavLink url="/omoss">Info</NavLink>
-            <NavLink url="/bestill">Bestill</NavLink>
             <NavLink url="/kontakt">Kontakt</NavLink>
             <NavLink url="/odd">Odd</NavLink>
           </ul>
