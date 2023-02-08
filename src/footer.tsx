@@ -22,8 +22,8 @@ export default function Footer() {
         <div class="font-bold text-black dark:text-white">Navigasjon</div>
         <ul class="mt-2">
           <NavigationLink text="Hjemmesiden" to="/" />
-          <NavigationLink text="Kontakt Oss" to="/kontakt" />
-          <NavigationLink text="Informasjon" to="/omoss" />
+          <NavigationLink text="Stats" to="/stats" />
+          <NavigationLink text="Clips" to="/clips" />
         </ul>
       </div>
       <div class="mb-4 text-gray-500 select-none">

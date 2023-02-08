@@ -18,8 +18,8 @@ export default function Navbar() {
         <div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
           <ul class=" flex justify-between flex-1 md:flex-none items-center">
             <NavLink url="/">Hjem</NavLink>
-            <NavLink url="/omoss">Info</NavLink>
-            <NavLink url="/kontakt">Kontakt</NavLink>
+            <NavLink url="/clips">Clips</NavLink>
+            <NavLink url="/stats">Stats</NavLink>
             <NavLink url="/odd">Odd</NavLink>
           </ul>
 

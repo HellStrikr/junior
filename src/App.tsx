@@ -4,9 +4,9 @@ import Navbar from "./navbar";
 import Footer from "./footer";
 
 import HomePage from "./pages/Home";
-import OmossPage from "./pages/OmOss";
-import KontaktPage from "./pages/Kontakt";
 import Odd from "./pages/odd";
+import ClipsPage from "./pages/Clips";
+import StatsPage from "./pages/Stats";
 
 const App: Component = () => {
   return (
@@ -21,8 +21,8 @@ const App: Component = () => {
         <div class="bg-gray-400">
           <Routes>
             <Route path="/" component={HomePage} />
-            <Route path="/omoss" component={OmossPage} />
-            <Route path="/kontakt" component={KontaktPage} />
+            <Route path="/clips" component={ClipsPage} />
+            <Route path="/stats" component={StatsPage} />
             <Route path="/odd" component={Odd} />
           </Routes>
         </div>
